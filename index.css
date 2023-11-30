@@ -9,7 +9,7 @@
 
     width: 100%;
     height: 100vh;
-    background:linear-gradient(135deg, #153677,#4e085f);
+    background:linear-gradient(135deg, rgb(2, 87, 77),rgb(78, 8, 95));
     padding: 10px;
 }
 
@@ -23,7 +23,7 @@
 }
 
 .todo-app h2{
-    color:#002765;
+    color:rgb(0, 39, 101);
     display: flex;
     align-items: center;
     margin-bottom: 20px;
@@ -38,7 +38,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #edeef0;
+    background: rgb(237, 238, 240);
     border-radius: 30px;
     padding-left: 20px;
     margin-bottom: 25px;
@@ -56,7 +56,7 @@ button{
     border: none;
     outline: none;
     padding: 16px 50px;
-    background: #ff5945;
+    background: rgb(255, 89, 69);
     color: white;
     font-size: 16px;
     cursor: pointer;
@@ -86,7 +86,7 @@ ul li::before{
 }
 
 ul li.checked{
-    color:#555;
+    color:rgb(85, 85, 85);
     text-decoration: line-through;
 }
 
@@ -101,12 +101,12 @@ ul li span{
     width: 40px;
     height: 40px;
     font-size: 22px;
-    color:#555;
+    color:rgb(85, 85, 85);
     line-height: 40px;
     text-align: center;
     border-radius: 50%;
 }
 
 ul li span:hover{
-    background: #edeef0;
+    background: rgb(237, 238, 240);
 }
